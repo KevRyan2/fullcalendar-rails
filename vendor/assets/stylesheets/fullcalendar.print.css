@@ -17,16 +17,20 @@
 
 /* Global Event Restyling
 --------------------------------------------------------------------------------------------------*/
-
 .fc-event {
 	background: #fff !important;
 	color: #000 !important;
-	page-break-inside: avoid;
-}
-
-.fc-event .fc-resizer {
-	display: none;
-}
+	}
+	
+/* for vertical events */
+	
+.fc-event-bg {
+	display: none !important;
+	}
+	
+.fc-event .ui-resizable-handle {
+	display: none !important;
+	}
 
 
 /* Table & Day-Row Restyling
