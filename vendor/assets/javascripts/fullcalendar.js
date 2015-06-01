@@ -697,7 +697,7 @@ function Calendar(element, instanceOptions) {
 	function renderView(inc) {
 		if (
 			!currentView.start || // never rendered before
-			inc || // explicit date window change
+			inc //|| // explicit date window change //
 			!date.isWithin(currentView.intervalStart, currentView.intervalEnd) // implicit date window change
 		) {
 			if (elementVisible()) {
